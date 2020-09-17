@@ -40,3 +40,8 @@
        ```
         
 
+6. 
+
+7. I graduated from technical school and I have an incomplete higher education.
+
+8. B1 (I studied in Poland and had some practice in communication with english-speaking people).
