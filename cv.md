@@ -13,4 +13,30 @@
 
 4. Basic HTML, CSS (*BEM-methodology, Bootstrap and SCSS/SASS*), JS.
 
+5.     
+    ```javascript 
+    function calcExchangeRate(currency1, currency2) {
+    const api = `https://api.exchangeratesapi.io/latest?symbols=${currency1},${currency2}`;
+
+    async function getCurrency() {
+
+        const response = await fetch(api);
+
+        const val = await response.json();
+
+     return val;
+
+     }
+     getCurrency().then(val => {
+
+        let res = val.rates[currency2] / val.rates[currency1];
+
+        res = Math.round(res * 100) / 100;
+
+        console.log(res);
+     });
+     }
+       calcExchangeRate('USD', 'PLN'); 
+       ```
+        
 
