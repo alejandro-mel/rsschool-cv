@@ -37,7 +37,7 @@
      });
      }
        calcExchangeRate('USD', 'PLN'); 
-       ```
+       
         
 
 6. 
