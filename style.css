@@ -1,0 +1,101 @@
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5rem;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts ul {
+    list-style-type: disc;
+    margin: 20px 0 0 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/avatar.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid purple;
+}
+
+.info-block p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.info-block {
+    margin: 10px 0 15px;
+}
+
+table * {
+    border: 1px solid grey;
+    padding: 0 5px;
+    text-align: center;
+}
+
+td:first-child {
+    font-weight: 700;
+}
+
+code {
+    display: block;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    font-family: courier, monospace;
+    padding: 10px 0 10px 20px;
+}
+
+.embedded-list {
+    list-style-type: disc;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+.embedded-list ul {
+    list-style-type: circle;
+    font-size: 14px;
+    margin-left: 20px;
+    border: 1px solid grey;
+    padding: 3px;
+    display: inline-block;
+}
+
+
+.education ul>li:first-child {
+    border: none;
+    padding: 0;
+    display: list-item;
+}
+
