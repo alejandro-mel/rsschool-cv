@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css ">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1>Aliaksandr Melnichuk</h1>
+            <hr>
+            <div class="info">
+                <div class="contacts">
+                    <h3>Contacts</h3>
+                    <ul class="inner-ul">
+                        <li>Email: <a href="mailto:alejandro.mel420@gmail.com">Send a letter</a></li>
+                        <li>Phone: <a href="tel: +375292252123">Make a call</a></li>
+                        <li>Telegram: <a href="https://t.me/un_sicario" target="_blank">Click here</a></li>
+                    </ul>
+                </div> <img class="avatar"> </div>
+            <div class="info-block">
+                <h3>Summary</h3>
+                <hr>
+                <p>I work hard and try to do everything to become a front-end developer. I’m good at solving problems. </p>
+            </div>
+        </header>
+        <main>
+            <div class="info-block">
+                <h3>Technical Skills</h3>
+                <hr>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Web technologies</td>
+                            <td>HTML/CSS</td>
+                            <td>Bootstrap 4</td>
+                            <td>SCSS/SASS</td>
+                        </tr>
+                        <tr>
+                            <td>Programming Languages</td>
+                            <td colspan="3">JavaScript</td>
+                        </tr>
+                        <td>Methodologies</td>
+                        <td colspan="3">BEM</td>
+                        <tr>
+                            <td>VCS</td>
+                            <td colspan="3">Git</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="info-block">
+                <div class="info-block">
+                    <h3>Code example:</h3>
+                    <hr> <code>
+                  <pre> function calcExchangeRate(currency1,currency2) {
+
+                  const api =https://api.exchangeratesapi.io/latest?symbols=${currency1},${currency2};
+
+async function getCurrency() {
+
+const response = await fetch(api);
+
+const val = await response.json();
+return val;
+
+} getCurrency().then(val => {
+
+let res = val.rates[currency2] / val.rates[currency1];
+
+res = Math.round(res * 100) / 100;
+
+console.log(res);  });  }
+
+               calcExchangeRate('USD', 'PLN'); </pre>
+                </code> </div>
+                <div class="info-block">
+                    <h3>Education</h3>
+                    <hr>
+                    <ul class="embedded-list education">
+                        <li>I graduated from technical school and I have an incomplete higher education.</li>
+                    </ul>
+                </div>
+                <div class="info-block">
+                    <h3>English</h3>
+                    <hr>
+                    <h4>B1</h4>
+                    <ul class="embedded-list education">
+                        <li>I studied in Poland and had some practice in communication with english-speaking people.</li>
+                </div>
+        </main>
+        </div>
+    </div>
+</body>
+
+</html>
